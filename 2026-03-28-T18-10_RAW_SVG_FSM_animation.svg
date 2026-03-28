@@ -1,0 +1,181 @@
+<svg width="1000" height="1000" viewBox="-200 -200 3000 3000" xmlns="http://www.w3.org/2000/svg">
+    <!-- 2026-03-28-T18-10_RAW_SVG_FSM_animation -->
+		<g id="machine-1">
+			<!-- FRAME 1 -->
+			<g id="frame-1" stroke="black" stroke-width="0.25">
+				<!-- RECTANGLE. BACK.-->
+				<line x1="-70" y1="-70" x2="800" y2="-70" /> <!-- HORIZONTAL. BACK.TOP.-->
+				<line x1="-70" y1="800" x2="800" y2="800" /> <!-- HORIZONTAL. BACK.BOTTOM.-->
+				<line x1="-70" y1="-70" x2="-70" y2="800" /> <!-- VERTICAL. BACK. LEFT.-->
+				<line x1="800" y1="-70" x2="800" y2="800" /> <!-- VERTICAL. BACK. RIGHT..-->
+				<!-- RECTANGLE. FRONT.-->
+				<line x1="35" y1="35" x2="905" y2="35" /> <!-- HORIZONTAL. BACK.TOP.-->
+				<line x1="35" y1="905" x2="905" y2="905" /> <!-- HORIZONTAL. BACK.BOTTOM.-->
+				<line x1="35" y1="35" x2="35" y2="905" /> <!-- VERTICAL. BACK. LEFT.-->
+				<line x1="905" y1="35" x2="905" y2="905" /> <!-- VERTICAL. BACK. RIGHT..-->
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="-70" x2="35" y2="35" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="800" y1="-70" x2="905" y2="35" /><!-- DIAGONAL. TOP. RIGHT. -->
+				<line x1="-70" y1="800" x2="35" y2="905" /><!-- DIAGONAL. BOTTOM. LEFT. -->
+				<line x1="800" y1="800" x2="905" y2="905" /><!-- DIAGONAL. BOTTOM. RIGHT. -->
+			</g>
+
+			<!-- PIPES -->
+			<!-- PIPE. DIAGONAL. TOP. LEFT. -->
+			<g id="pipe-diagonal-top" stroke="black" stroke-width="1.5">
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="-70" x2="35" y2="35" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="0" y1="-70" x2="105" y2="35" /><!-- DIAGONAL. TOP. RIGHT. -->
+				<line x1="-70" y1="0" x2="35" y2="105" /><!-- DIAGONAL. BOTTOM. LEFT. -->
+				<line x1="0" y1="0" x2="105" y2="105" stroke-width="1" /><!-- DIAGONAL. BOTTOM. RIGHT. -->
+				<!-- RECTANGLE. BACK. -->
+				<line x1="-70" y1="-70" x2="0" y2="-70" /><!-- HORIZONTAL. TOP.-->
+				<line x1="-70" y1="0" x2="0" y2="0" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="-70" y1="-70" x2="-70" y2="0" /><!-- VERTICAL. LEFT.-->
+				<line x1="0" y1="-70" x2="0" y2="0" /><!-- VERTICAL. RIGHT..-->
+			</g>
+			<!-- PIPE. VERTICAL. FRONT. LEFT. -->
+			<g id="pipe-vertical" stroke="black" stroke-width="1.5">
+				<!-- RECTANGLE. BACK.-->
+				<line x1="35" y1="35" x2="105" y2="35" stroke-width="0" /><!-- HORIZONTAL. TOP.-->
+				<line x1="35" y1="905" x2="105" y2="905" stroke-width="0" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="35" y1="105" x2="35" y2="835" /><!-- VERTICAL. LEFT.-->
+				<line x1="105" y1="105" x2="105" y2="835" stroke-width="0.75" /><!-- VERTICAL. RIGHT..-->
+				<!-- RECTANGLE. FRONT.-->
+				<line x1="70" y1="70" x2="140" y2="70" /><!-- HORIZONTAL. TOP.-->
+				<line x1="70" y1="940" x2="140" y2="940" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="70" y1="70" x2="70" y2="940" /><!-- VERTICAL. LEFT.-->
+				<line x1="140" y1="70" x2="140" y2="940" /><!-- VERTICAL. RIGHT..-->
+				<!-- DIAGONALS. -->
+				<line x1="35" y1="35" x2="70" y2="70" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="105" y1="35" x2="140" y2="70" /><!-- DIAGONALS. TOP. RIGHT. -->
+				<line x1="35" y1="905" x2="70" y2="940" /><!-- DIAGONALS. BOTTOM. LEFT. -->
+				<line x1="105" y1="905" x2="140" y2="940" stroke="cyan" stroke-width="0" /><!-- DIAGONALS. BOTTOM. RIGHT. -->
+			</g>
+
+			<!-- PIPE. DIAGONAL. BOTTOM. LEFT. -->
+			<g id="pipe-diagonal-bottom" stroke="black" stroke-width="1.75">
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="800" x2="35" y2="905" /><!-- DIAGONAL. BOTTOM. LEFT. -->
+				<line x1="0" y1="800" x2="105" y2="905" stroke-width="0" /><!-- DIAGONAL. BOTTOM. RIGHT.-->
+				<line x1="-70" y1="730" x2="35" y2="835" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="0" y1="730" x2="105" y2="835" /><!-- DIAGONAL. TOP. RIGHT. -->
+				<!-- RECTANGLE. BACK. -->
+				<line x1="-70" y1="730" x2="0" y2="730" /><!-- HORIZONTAL. TOP.-->
+				<line x1="-70" y1="800" x2="0" y2="800" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="-70" y1="730" x2="-70" y2="800" /><!-- VERTICAL. LEFT.-->
+				<line x1="0" y1="730" x2="0" y2="800" /><!-- VERTICAL. RIGHT..-->
+				<!-- RECTANGLE. FRONT.-->
+				<line x1="35" y1="835" x2="105" y2="835" stroke-width="0" /><!-- HORIZONTAL. TOP.-->
+				<line x1="35" y1="905" x2="105" y2="905" stroke="cyan" stroke-width="0" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="35" y1="835" x2="35" y2="905" stroke="orange" stroke-width="0" /><!-- VERTICAL. LEFT.-->
+				<line x1="105" y1="835" x2="105" y2="835" /><!-- VERTICAL. RIGHT..-->
+			</g>
+
+			<!-- CONTAINER. FRONT. HORIZONTAL. MOVING -->
+			<g id="container-horizontal" stroke="black" stroke-width="2">
+				<!-- RECTANGLE. BACK.-->
+				<line x1="35" y1="35" x2="905" y2="35" /><!-- HORIZONTAL. TOP.-->
+				<line x1="35" y1="105" x2="905" y2="105" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="35" y1="35" x2="35" y2="105" /><!-- VERTICAL. LEFT.-->
+				<line x1="905" y1="35" x2="905" y2="105" /><!-- VERTICAL. RIGHT.-->
+				<!-- RECTANGLE. FRONT.-->
+				<line x1="70" y1="70" x2="940" y2="70" /><!-- HORIZONTAL. TOP.-->
+				<line x1="70" y1="140" x2="940" y2="140" /><!-- HORIZONTAL. BOTTOM.-->
+				<line x1="70" y1="70" x2="70" y2="140" /><!-- VERTICAL. LEFT.-->
+				<line x1="940" y1="70" x2="940" y2="140" /><!-- VERTICAL. RIGHT.-->
+				<!-- DIAGONALS. -->
+				<line x1="35" y1="35" x2="70" y2="70" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="905" y1="35" x2="940" y2="70" /><!-- DIAGONALS. TOP. RIGHT. -->
+				<line x1="35" y1="105" x2="70" y2="140" /><!-- DIAGONALS. BOTTOM. LEFT. -->
+				<line x1="905" y1="105" x2="940" y2="140" /><!-- DIAGONALS. BOTTOM. RIGHT. -->
+				<!-- MOTION. -->
+				<animateTransform id="A1" attributeName="transform" type="translate" from="70 870" to="0 870" dur="0.15s" begin="0.3s;D1.end" />
+				<animateTransform id="B1" attributeName="transform" type="translate" from="0 870" to="0 70" dur="0.15s" begin="A1.end" />
+				<animateTransform id="C1" attributeName="transform" type="translate" from="0 70" to="70 70" dur="0.15s" begin="B1.end" />
+				<animateTransform id="D1" attributeName="transform" type="translate" from="70 70" to="70 870" dur="0.15s" begin="C1.end" />
+
+			</g>
+
+			<!-- ANIMATED CUBES -->
+			<!-- ANIMATED CUBE. BLUE -->
+			<g id="blue-cube" stroke="blue" stroke-width="4">
+				<!-- RECTANGLE. BACK. -->
+				<line x1="-70" y1="-70" x2="0" y2="-70" /><!-- HORIZONTAL. BACK.TOP.-->
+				<line x1="-70" y1="0" x2="0" y2="0" /><!-- HORIZONTAL. BACK.BOTTOM.-->
+				<line x1="-70" y1="-70" x2="-70" y2="0" /><!-- VERTICAL. BACK. LEFT.-->
+				<line x1="0" y1="-70" x2="0" y2="0" /><!-- VERTICAL. BACK. RIGHT..-->
+				<!-- RECTANGLE. FRONT.-->
+				<line x1="-35" y1="-35" x2="35" y2="-35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="-35" x2="-35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="35" y1="-35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="-70" x2="-35" y2="-35" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="0" y1="-70" x2="35" y2="-35" /><!-- DIAGONALS. TOP. RIGHT. -->
+				<line x1="-70" y1="0" x2="-35" y2="35" /><!-- DIAGONALS. BOTTOM. LEFT. -->
+				<line x1="0" y1="0" x2="35" y2="35" /><!-- DIAGONALS. BOTTOM. RIGHT. -->
+				<!-- MOTION. -->
+				<animateTransform id="A2" attributeName="transform" type="translate" from="0 800" to="105 905" dur="0.45s" begin="0s;F2.end" />
+				<animateTransform id="B2" attributeName="transform" type="translate" from="105 905" to="105 105" dur="0.15s" begin="A2.end" />
+				<animateTransform id="C2" attributeName="transform" type="translate" from="105 105" to="105 105" dur="0.45s" begin="B2.end" />
+				<animateTransform id="D2" attributeName="transform" type="translate" from="105 105" to="0 0" dur="0.15s" begin="C2.end" />
+				<animateTransform id="E2" attributeName="transform" type="translate" from="0 0" to="0 0" dur="0.3s" begin="D2.end" />
+				<animateTransform id="F2" attributeName="transform" type="translate" from="0 0" to="0 800" dur="0.3s" begin="E2.end" />
+
+			</g>
+			<!-- ANIMATED CUBE. GREEN. -->
+			<g id="green-cube" stroke="green" stroke-width="4">
+				<!-- RECTANGLE. BACK. -->
+				<line x1="-70" y1="-70" x2="0" y2="-70" /><!-- HORIZONTAL. BACK.TOP.-->
+				<line x1="-70" y1="0" x2="0" y2="0" /><!-- HORIZONTAL. BACK.BOTTOM.-->
+				<line x1="-70" y1="-70" x2="-70" y2="0" /><!-- VERTICAL. BACK. LEFT.-->
+				<line x1="0" y1="-70" x2="0" y2="0" /><!-- VERTICAL. BACK. RIGHT..-->
+				<!-- RECTANGLE. FRONT. -->
+				<line x1="-35" y1="-35" x2="35" y2="-35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="-35" x2="-35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="35" y1="-35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="-70" x2="-35" y2="-35" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="0" y1="-70" x2="35" y2="-35" /><!-- DIAGONALS. TOP. RIGHT. -->
+				<line x1="-70" y1="0" x2="-35" y2="35" /><!-- DIAGONALS. BOTTOM. LEFT. -->
+				<line x1="0" y1="0" x2="35" y2="35" /><!-- DIAGONALS. BOTTOM. RIGHT. -->
+				<!-- MOTION. -->
+				<animateTransform id="A3" attributeName="transform" type="translate" from="0 800" to="105 905" dur="0.45s" begin="0.6s;F3.end" />
+				<animateTransform id="B3" attributeName="transform" type="translate" from="105 905" to="105 105" dur="0.15s" begin="A3.end" />
+				<animateTransform id="C3" attributeName="transform" type="translate" from="105 105" to="105 105" dur="0.45s" begin="B3.end" />
+				<animateTransform id="D3" attributeName="transform" type="translate" from="105 105" to="0 0" dur="0.15s" begin="C3.end" />
+				<animateTransform id="E3" attributeName="transform" type="translate" from="0 0" to="0 0" dur="0.3s" begin="D3.end" />
+				<animateTransform id="F3" attributeName="transform" type="translate" from="0 0" to="0 800" dur="0.3" begin="E3.end" />
+			</g>
+			
+			<!-- ANIMATED CUBE. RED. -->
+			<g id="red-cube" stroke="red" stroke-width="4">
+				<!-- RECTANGLE. BACK. -->
+				<line x1="-70" y1="-70" x2="0" y2="-70" /><!-- HORIZONTAL. BACK.TOP.-->
+				<line x1="-70" y1="0" x2="0" y2="0" /><!-- HORIZONTAL. BACK.BOTTOM.-->
+				<line x1="-70" y1="-70" x2="-70" y2="0" /><!-- VERTICAL. BACK. LEFT.-->
+				<line x1="0" y1="-70" x2="0" y2="0" /><!-- VERTICAL. BACK. RIGHT..-->
+				<!-- RECTANGLE. FRONT. -->
+				<line x1="-35" y1="-35" x2="35" y2="-35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="-35" y1="-35" x2="-35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<line x1="35" y1="-35" x2="35" y2="35" /><!-- HORIZONTAL. FRONT.TOP.-->
+				<!-- DIAGONALS. -->
+				<line x1="-70" y1="-70" x2="-35" y2="-35" /><!-- DIAGONAL. TOP. LEFT. -->
+				<line x1="0" y1="-70" x2="35" y2="-35" /><!-- DIAGONALS. TOP. RIGHT. -->
+				<line x1="-70" y1="0" x2="-35" y2="35" /><!-- DIAGONALS. BOTTOM. LEFT. -->
+				<line x1="0" y1="0" x2="35" y2="35" /><!-- DIAGONALS. BOTTOM. RIGHT. -->
+				<!-- MOTION. -->
+				<animateTransform id="A4" attributeName="transform" type="translate" from="0 800" to="105 905" dur="0.45s" begin="1.2s;F4.end" />
+				<animateTransform id="B4" attributeName="transform" type="translate" from="105 905" to="105 105" dur="0.15s" begin="A4.end" />
+				<animateTransform id="C4" attributeName="transform" type="translate" from="105 105" to="105 105" dur="0.45s" begin="B4.end" />
+				<animateTransform id="D4" attributeName="transform" type="translate" from="105 105" to="0 0" dur="0.15s" begin="C4.end" />
+				<animateTransform id="E4" attributeName="transform" type="translate" from="0 0" to="0 0" dur="0.3s" begin="D4.end" />
+				<animateTransform id="F4" attributeName="transform" type="translate" from="0 0" to="0 800" dur="0.3" begin="E4.end" />
+			</g>
+		</g>
+	
+
+</svg>
