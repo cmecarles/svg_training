@@ -1,6 +1,6 @@
 # svg_training
 
---
+---
 ## 2026-03-28-T18-10_RAW_SVG_FSM_animation.svg
 <img src="2026-03-28-T18-10_RAW_SVG_FSM_animation.svg" width="1000" />
 
